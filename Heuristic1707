@@ -1,0 +1,13 @@
+K & K Procedure()
+1. Open<----{(Start,Cost(Start)))}
+2.Closed<----{}
+3.while True
+do if Empty(Open)
+if Goal (Head(n))
+Then Return Reconstruction Path(n)
+if Goal Test (Head(n))
+then return Reconstruction(n)
+Else<----MoveGen(Head(n))
+For Each M{{Children
+do Cost(m)<--------Cost(n)+K(m,n)
+Add (m,Head(n),Cost(m)) to Open
